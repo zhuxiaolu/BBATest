@@ -15,6 +15,7 @@
 		0FD7266A206E1BFA00699EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD72669206E1BFA00699EFB /* main.m */; };
 		0FD72674206E1BFB00699EFB /* BBATestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD72673206E1BFB00699EFB /* BBATestTests.m */; };
 		0FD7267F206E1BFB00699EFB /* BBATestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7267E206E1BFB00699EFB /* BBATestUITests.m */; };
+		0FD7268E206E1C6700699EFB /* BBAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7268D206E1C6700699EFB /* BBAHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0FD7267A206E1BFB00699EFB /* BBATestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBATestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD7267E206E1BFB00699EFB /* BBATestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBATestUITests.m; sourceTree = "<group>"; };
 		0FD72680206E1BFB00699EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD7268C206E1C6700699EFB /* BBAHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAHelper.h; sourceTree = "<group>"; };
+		0FD7268D206E1C6700699EFB /* BBAHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0FD7265B206E1BFA00699EFB /* AppDelegate.m */,
 				0FD7265D206E1BFA00699EFB /* ViewController.h */,
 				0FD7265E206E1BFA00699EFB /* ViewController.m */,
+				0FD7268C206E1C6700699EFB /* BBAHelper.h */,
+				0FD7268D206E1C6700699EFB /* BBAHelper.m */,
 				0FD72660206E1BFA00699EFB /* Main.storyboard */,
 				0FD72663206E1BFA00699EFB /* Assets.xcassets */,
 				0FD72665206E1BFA00699EFB /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				0FD7265F206E1BFA00699EFB /* ViewController.m in Sources */,
 				0FD7266A206E1BFA00699EFB /* main.m in Sources */,
 				0FD7265C206E1BFA00699EFB /* AppDelegate.m in Sources */,
+				0FD7268E206E1C6700699EFB /* BBAHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
